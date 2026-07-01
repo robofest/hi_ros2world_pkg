@@ -1,4 +1,6 @@
-Hello World Package in ROS2
+#Hello World Package in ROS2
+
+First, clone the package under your ros2_ws/src
 
 ```bash
 $ cd ~/ros2_ws
