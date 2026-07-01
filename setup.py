@@ -23,7 +23,7 @@ setup(
         ],
     },
     entry_points={
-        'console_scripts': [
+        'console_scripts': [ # node name does not need .py extension
 	        'hi_ros2world_node_exe = hi_ros2world_pkg.hi_ros2world_node:main',
         ],
     },
