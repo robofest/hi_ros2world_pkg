@@ -15,7 +15,7 @@ setup(
     zip_safe=True,
     maintainer='cchung',
     maintainer_email='cchung@ltu.edu',
-    description='TODO: Package description',
+    description='1st ros2 package and hello world node',
     license='TODO: License declaration',
     extras_require={
         'test': [
@@ -24,7 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [ # node name does not need .py extension
-	        'hi_ros2world_node_exe = hi_ros2world_pkg.hi_ros2world_node:main',
+            'hi_ros2world_node_exe = hi_ros2world_pkg.hi_ros2world_node:main',
         ],
     },
 )
